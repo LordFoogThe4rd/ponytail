@@ -88,11 +88,11 @@ Every finding has all four parts, each one or two short sentences:
    - **If we skip it:** Late orders show the wrong date, and accounting fixes them by hand.
 
 End with:
-- `Verdict: Ship.` or `Verdict: fix 1 and 3 first.`
+- `Verdict: Looks good.` or `Verdict: fix 1 and 3 first.`
 - `Lean: -<N> lines possible.` when lean findings exist.
 - `Not checked:` one line, if something mattered and you could not check it.
 
-Nothing found: `What this change does:`, then `Looks good. Ship.` and one line
+Nothing found: `What this change does:`, then `Looks good.` and one line
 on what you checked.
 
 Lists findings, changes no code.

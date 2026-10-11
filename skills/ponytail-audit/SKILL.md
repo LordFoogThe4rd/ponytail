@@ -17,7 +17,7 @@ tested and fixed later. This is a report the user asked for, so give it in full.
 
 - Audit what the user names: a folder, a package, or the whole repo.
   Nothing named: the whole repo.
-- Read the README, the deploy and build config, the dependency list, the
+- Read the README, the deploy config, the dependency list, the
   entry points (main, routes, handlers, jobs, CLI commands) and the tests.
 - Find the expected load: one person running a script, or many users and
   processes at once. Judge scale against that, and say which load you assumed.

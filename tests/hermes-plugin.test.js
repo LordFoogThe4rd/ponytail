@@ -214,7 +214,7 @@ print(json.dumps({'ctx': ctx}))
   const { ctx } = JSON.parse(output);
   assert.match(ctx, /PONYTAIL MODE ACTIVE — level: review/);
   assert.match(ctx, /Review a change like the senior developer/);
-  assert.match(ctx, /Verdict: Ship\./);
+  assert.match(ctx, /Verdict: Looks good\./);
   assert.doesNotMatch(ctx, /^---/);
 });
 

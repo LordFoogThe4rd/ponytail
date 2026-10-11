@@ -1,3 +1,7 @@
+This fork exists because I despise the words "build" and "ship".
+
+---
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
